@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input::file-selector-button {
+  width: 100%;
+  padding: 1em;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  background-color: #fa2a55;
+  border: none;
+  border-radius: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  width: 13em;
+}
+
+#predictionResult {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  border-style: none;
+  border-radius: 10px;
+}
+
+#img-container {
+  border: 1px solid #fa2a55;
+  padding: 1em;
+  border-radius: 10px;
+}

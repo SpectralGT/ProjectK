@@ -1,0 +1,23 @@
+{
+  "name": "projectk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@tensorflow/tfjs": "^4.21.0",
+    "expo": "^51.0.36",
+    "expo-image-picker": "~15.0.7"
+  }
+}

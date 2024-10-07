@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ProjectK</string>
+    <string name="title_activity_main">ProjectK</string>
+    <string name="package_name">com.spectralgt.projectk</string>
+    <string name="custom_url_scheme">com.spectralgt.projectk</string>
+</resources>
